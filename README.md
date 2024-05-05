@@ -4,7 +4,7 @@ RHEL 系 OS を用いて kubernetes-cluster を作成しました。
 
 - [公式手順](https://kubernetes.io/docs/setup/)
 
-- [構築手順](https://github.com/maeshinshin/kubernetes-cluster-setup/blob/main/setup/setup.md)
+- [今回の構築手順](https://github.com/maeshinshin/kubernetes-cluster-setup/blob/main/setup/setup.md)
 
 ## 構成
 
