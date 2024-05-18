@@ -312,7 +312,7 @@ rm -f cni-plugins-linux-amd64-v1.4.1.tgz
 
 ```bash
 kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/master/manifests/tigera-operator.yaml
-kubectl apply -f https://raw.githubusercontent.com/maeshinshin/kubernetes-cluster-setup/main/setup/custom-resources.yaml
+kubectl apply -f https://raw.githubusercontent.com/maeshinshin/kubernetes-cluster-setup/main/resource/custom-resources.yaml
 ```
 
 containerd,service を再起動します。
