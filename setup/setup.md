@@ -218,7 +218,11 @@ systemctl restart kubelet.service
 クラスタを立ち上げます。
 
 ```bash
-kubeadm init --kubernetes-version=1.30.0 --apiserver-advertise-address=10.0.0.1 --pod-network-cidr=10.32.0.0/16 --control-plane-endpoint=192.168.10.11
+kubeadm init \
+--kubernetes-version=1.30.0 \
+--apiserver-advertise-address=10.0.0.1 \
+--pod-network-cidr=10.32.0.0/16 \
+--control-plane-endpoint=192.168.10.11
 ```
 
 #### 各 Linux ユーザーの設定
